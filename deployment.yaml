@@ -28,6 +28,12 @@ spec:
           volumeMounts:
             - name: backend_volume
               mountPath: /data/db
+                env:
+                  - name: mongo-config
+                    valueFrom:
+                    configMapKeyRef:
+                    name: mongo-config
+                    key: MONGO_URL
       volumes:
         - name:
           - backend_volume:/data/db
