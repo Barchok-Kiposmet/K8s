@@ -16,11 +16,11 @@ spec:
         - name: client
           image: pkiposmet/yolo-client-server:1.0.0
           ports:
-            - containerPort: 5001
+            - containerPort: 3000
         - name: backend
           image: pkiposmet/yolo-backend-server:1.0.0
           ports:
-            - containerPort: 3000
+            - containerPort: 5001
         - name: backend-database
           image: mongo
           ports:
