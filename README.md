@@ -1,4 +1,4 @@
-## Yolo Kubernetes Orchestration  
+## Yolo Kubernetes Orchestration
 
 ### Description
 
