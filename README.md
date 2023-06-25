@@ -21,8 +21,7 @@ Access the link shared on the deployment tab on your UI.
 The client-server image keeps failing upon restart (This is a bug from how the application was developed locally)
 
 ### Technology used
+
 - YAML
 
 ### License MIT License: Copyright (c) 2023
-
-
