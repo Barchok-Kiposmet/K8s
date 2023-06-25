@@ -6,10 +6,11 @@ spec:
   selector:
     app: yolo
   ports:
-    - name: frontend-port
-      port: <frontend_port>
-      targetPort: <frontend_port>
+    - name: client-port
+      port: 3000
+      targetPort: 3000
     - name: backend-port
-      port: <backend_port>
-      targetPort: <backend_port>
+      port: 5001
+      targetPort: 5001
+      nodePort: 31000
   type: LoadBalancer
