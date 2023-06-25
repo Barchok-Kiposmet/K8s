@@ -13,14 +13,14 @@ spec:
         app: yolo
     spec:
       containers:
-        - name: frontend
-          image: <frontend_image_name>
+        - name: client
+          image: pkiposmet/yolo-client-server:1.1.0
           ports:
-            - containerPort: <frontend_port>
+            - containerPort: 5001
         - name: backend
-          image: <backend_image_name>
+          image: pkiposmet/yolo-backend-server:1.0.0
           ports:
-            - containerPort: <backend_port>
+            - containerPort: 3000
         - name: mongodb
           image: mongo
           ports:
