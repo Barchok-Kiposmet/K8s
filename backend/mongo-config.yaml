@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-configmap
+data:
+  mongo-config.yaml: |
+    # Mongo DB configuration file
+    database: your-database-name
+    host: your-mongo-host
+    port: your-mongo-port
+    username: your-mongo-username
+    password: your-mongo-password
