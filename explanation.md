@@ -16,4 +16,4 @@ The Yolo app is cloned and dockerized. With the images pushed to the docker hub,
 
 ## NB (Bug alert)
 
-The app has a crashloop error and keeps restarting. This is a bug issue noted even when the app is run locally.
+The app has a crashloop error and keeps restarting. This is a bug issue noted even when the app is run locally. This should not hinder the app from running on your environment.
