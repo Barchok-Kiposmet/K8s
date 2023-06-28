@@ -10,15 +10,15 @@ Ensure that you have Minikube installed on your machine.
 
 Clone the repository.
 
-Start Minikube on your laptop
+Start Minikube on your machine
 
-Then apply the deployment, config-map, service, and the MongoDB-pvc YAML files
+Then CD into the client and backend DIR and create the deployment, service, config, and PVC YAML files
 
-Access the link shared on the deployment tab on your UI.
+Access the link shared on the deployment tab on your UI. Or you can get services from your terminal to access the external IP
 
 ### Known Bugs
 
-The client-server image keeps failing upon restart (This is a bug from how the application was developed locally)
+The client-server image keeps failing upon restart (CrashLoop Error) (This is a bug from how the application was developed locally, the app keeps restarting)
 
 ### Technology used
 
