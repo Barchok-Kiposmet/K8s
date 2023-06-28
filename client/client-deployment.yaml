@@ -17,3 +17,4 @@ spec:
           image: pkiposmet/yolo-client-server:1.0.0
           ports:
             - containerPort: 3000
+
