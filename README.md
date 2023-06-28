@@ -1,6 +1,6 @@
-## Yolo Kubernetes Orchestration
+# Yolo Kubernetes Orchestration
 
-### Description
+## Description
 
 This project uses K8 to orchestrate the Yolo app on a cluster and expose the app.
 
